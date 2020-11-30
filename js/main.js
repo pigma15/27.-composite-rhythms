@@ -2,9 +2,6 @@ const kik = new Audio("../audio/kik.wav");
 
 
 
-
-
-
 function kikAnimate() {
     let kikTime = document.querySelector('.kikIn').value * 1000;
     document.querySelector('.column.kik').style.animationDuration = `${kikTime}ms`;
@@ -22,7 +19,7 @@ function kikSound() {
     }, kikTime);
 }
 
-function both() {
+function all() {
     kikAnimate();
     kikSound();
 }
