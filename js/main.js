@@ -1,4 +1,4 @@
-const kik = new Audio("../audio/kik.wav");
+const kikas = new Audio("../audio/kik.wav");
 
 
 
@@ -11,15 +11,15 @@ function kikAnimate() {
 function kikSound() {
     let kikTime = document.querySelector('.kikIn').value * 1000;
     setInterval(() => {
-        kik.play();
+        kikas.play();
         setTimeout(() => {
-            kik.pause();
-            kik.load();
+            kikas.pause();
+            kikas.load();
         }, kikTime - 10)
     }, kikTime);
 }
 
-function all() {
+function machine() {
     kikAnimate();
     kikSound();
 }
