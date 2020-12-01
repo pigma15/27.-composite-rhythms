@@ -1,10 +1,12 @@
-const kikas = new Audio("../audio/kik.mp3");
-const snare = new Audio("../audio/snr.mp3");
-const hat = new Audio("../audio/hh.mp3");
-const bass = new Audio("../audio/bassC.mp3");
-const piano = new Audio("../audio/pianoE.mp3");
-const wurli = new Audio("../audio/wurliG.mp3");
-const guzheng = new Audio("../audio/guzhengB.mp3");
+const linkas = "https://pigma15.github.io/27.-composite-rhythms/" 
+
+const kikas = new Audio(linkas + "/audio/kik.mp3");
+const snare = new Audio(linkas + "/audio/snr.mp3");
+const hat = new Audio(linkas + "/audio/hh.mp3");
+const bass = new Audio(linkas + "/audio/bassC.mp3");
+const piano = new Audio(linkas + "/audio/pianoE.mp3");
+const wurli = new Audio(linkas + "/audio/wurliG.mp3");
+const guzheng = new Audio(linkas + "/audio/guzhengB.mp3");
 
 //KIK
 function kikAnimate() {
