@@ -1,10 +1,10 @@
-const kikas = new Audio("../audio/kik.wav");
-const snare = new Audio("../audio/snr.wav");
-const hat = new Audio("../audio/hh.wav");
-const bass = new Audio("../audio/bassC.wav");
-const piano = new Audio("../audio/pianoE.wav");
-const wurli = new Audio("../audio/wurliG.wav");
-const guzheng = new Audio("../audio/guzhengB.wav");
+const kikas = new Audio("../audio/kik.mp3");
+const snare = new Audio("../audio/snr.mp3");
+const hat = new Audio("../audio/hh.mp3");
+const bass = new Audio("../audio/bassC.mp3");
+const piano = new Audio("../audio/pianoE.mp3");
+const wurli = new Audio("../audio/wurliG.mp3");
+const guzheng = new Audio("../audio/guzhengB.mp3");
 
 //KIK
 function kikAnimate() {
