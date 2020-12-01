@@ -52,7 +52,6 @@ body {
         padding: 5%;
     }
         .inputs {
-            background-color: green;
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -60,7 +59,6 @@ body {
             height: 25%;
         }
             .inputs > div {
-                background-color: yellow;
                 display: inline-block;
                 width: 10%;
                 height: 100%;
