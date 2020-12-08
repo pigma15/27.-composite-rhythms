@@ -8,6 +8,8 @@ const piano = new Audio(linkas + "/audio/pianoE.mp3");
 const wurli = new Audio(linkas + "/audio/wurliG.mp3");
 const guzheng = new Audio(linkas + "/audio/guzhengB.mp3");
 
+let state = false;
+
 //KIK
 function kikAnimate() {
     let kikTime = document.querySelector('.kikIn').value * 1000;
@@ -192,6 +194,7 @@ function guzhengSound() {
 
 //MACHINE
 function machine() {
+    state = true;
     kikAnimate();
     kikSound();
     snrAnimate();
